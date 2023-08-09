@@ -40,7 +40,7 @@
       <v-data-table :headers="headers" :items="desserts" sort-by="calories" class="elevation-5" hide-default-footer>
         <template v-slot:top>
           <v-toolbar flat>
-            <v-toolbar-title class="mt-6"><v-text-field dense label="Recibo nº" outlined></v-text-field></v-toolbar-title>
+            <v-toolbar-title class="pt-6"><v-text-field dense label="Recibo nº" outlined></v-text-field></v-toolbar-title>
             <v-divider class="mx-4" inset vertical></v-divider>
             <v-spacer></v-spacer>
             <v-dialog v-model="dialog" max-width="500px">
