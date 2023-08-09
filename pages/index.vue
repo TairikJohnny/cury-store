@@ -4,7 +4,7 @@
     <div>
       <v-row class="align-center">
         <v-col>
-          <v-img src="logotipo.png" max-width="170"></v-img>
+          <img src="logotipo.png" width="200" />
         </v-col>
         <v-col cols="3">
           <v-menu v-model="menu" :close-on-content-click="false" transition="scale-transition" offset-y max-width="290px"
