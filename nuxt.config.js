@@ -70,6 +70,6 @@ export default {
   build: {},
 
   router: {
-    base: '/dist'
+    base: '/cury-store/'
   }
 }
